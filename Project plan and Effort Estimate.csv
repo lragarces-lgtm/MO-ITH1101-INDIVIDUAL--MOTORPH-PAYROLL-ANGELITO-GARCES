@@ -1,0 +1,40 @@
+Project Plan – Milestone 2,,,
+,,,
+Phase,Duration & Dates,Key Tasks I Will Complete,My Deliverables
+,,,
+Phase 1: Analysis & Planning,"4 days
+Feb 15 – Feb 18","• Review Milestone 2 requirements (Tasks 7–10).
+• Identify data sources (CSV files) and calculation rules (8‑5, grace period, lunch).
+• Outline the structure of the combined Java program.",Updated requirements summary; plan for implementation.
+Phase 2: Implementation – Core Calculations,"5 days
+Feb 19 – Feb 24","• Implement Task 7: read attendance.csv, calculate daily hours using rules, accumulate totals per employee.
+• Implement Task 8: read employees.csv, group hours by cutoff, compute semi‑monthly gross pay.
+• Add interactive prompts for employee number and month.",Working Java code for Tasks 7 & 8; tested with sample data.
+Phase 3: Implementation – Deductions & File I/O,"15 days
+Feb 25 – Mar 12","• Integrate Task 9: add methods for SSS, PhilHealth, Pag‑IBIG, and withholding tax using official tables.
+• Integrate Task 10: read employee_data.txt, parse name and gross salary, compute deductions and net pay.
+• Combine all tasks into a single menu‑driven program.",Complete Java program (MotorPHPayrollSystem.java) with all features; CSV and text files.
+Phase 4: Testing & QA,"8 days
+Mar 13 – Mar 21","• Update the file based on feedback.
+• Execute tests (simulate) and record actual results.
+• Verify that all calculations match expected values.",Tested and updated code; all functions verified.
+Phase 5: Documentation & Final Review,"3 days
+Mar 22 – Mar 24","• Update inline comments in code explaining logic.
+• Prepare README.md for GitHub repository.
+• Review all deliverables for accuracy and completeness.",Well‑commented code; README file; final code ready for submission.
+Phase 6: Submission,"3 days
+Mar 25 – Mar 27","• Final quality check.
+• Upload code, CSV files, text file, and README to GitHub repository.
+• Submit repository link to professor.",GitHub repository link; final submission package.
+,,,
+,,,
+"Effort Estimate – Milestone 2
+",,,
+Task,Description,Estimated Hours,
+Requirements Analysis & Planning,"Review Milestone 2 requirements, identify data sources and calculation rules, outline program structure.",2,
+Core Calculations Implementation,Code Task 7 (hours calculation) and Task 8 (semi‑monthly gross) with interactive prompts.,4,
+Deductions & File I/O Implementation,Code Task 9 (deduction methods) and Task 10 (text file processing); integrate into single menu‑driven program.,6,
+Testing & QA,"Incorporate feedback, test all functionalities, verify calculations.",3,
+Documentation & Final Review,"Add inline comments, write README, review all deliverables.",2,
+Submission,"Final quality check, upload to GitHub, submit link.",1,
+Total Individual Effort,,18,
